@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="100%" height="100%">
+  <defs>
+    <!-- Background: Warm Luxury Boutique Atmosphere with Ambient Glow -->
+    <linearGradient id="bgWall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#221915" />
+      <stop offset="40%" stop-color="#2D1F1B" />
+      <stop offset="80%" stop-color="#1A120F" />
+      <stop offset="100%" stop-color="#120C0A" />
+    </linearGradient>
+
+    <!-- Warm Amber Bokeh Orbs in Background -->
+    <radialGradient id="bokehGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE4A0" stop-opacity="0.6" />
+      <stop offset="40%" stop-color="#FFB84D" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FFB84D" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bokehGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD699" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#E69533" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#E69533" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Marble Table Gradient -->
+    <linearGradient id="marbleTable" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="15%" stop-color="#F7F5F0" />
+      <stop offset="50%" stop-color="#EDE8E1" />
+      <stop offset="100%" stop-color="#DCD5C9" />
+    </linearGradient>
+    <linearGradient id="tableBevel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C5A059" />
+      <stop offset="50%" stop-color="#8C6E33" />
+      <stop offset="100%" stop-color="#54411C" />
+    </linearGradient>
+
+    <!-- Skin Tones -->
+    <radialGradient id="faceTone" cx="48%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#F2C19E" />
+      <stop offset="45%" stop-color="#E0A37A" />
+      <stop offset="80%" stop-color="#C6865B" />
+      <stop offset="100%" stop-color="#A5673E" />
+    </radialGradient>
+    <radialGradient id="neckTone" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#CCA07A" />
+      <stop offset="60%" stop-color="#B07D54" />
+      <stop offset="100%" stop-color="#8F5E38" />
+    </radialGradient>
+    <linearGradient id="armTone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5AA84" />
+      <stop offset="50%" stop-color="#D08F65" />
+      <stop offset="100%" stop-color="#A6683E" />
+    </linearGradient>
+
+    <!-- Hair Tone with Soft Highlights -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2B211C" />
+      <stop offset="40%" stop-color="#1A1310" />
+      <stop offset="80%" stop-color="#0E0A08" />
+      <stop offset="100%" stop-color="#050302" />
+    </linearGradient>
+
+    <!-- Saree: Royal Purple / Plum Silk -->
+    <linearGradient id="sareeSilk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6B1F5E" />
+      <stop offset="30%" stop-color="#541648" />
+      <stop offset="65%" stop-color="#3D0C34" />
+      <stop offset="100%" stop-color="#2B0624" />
+    </linearGradient>
+    <linearGradient id="sareeShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#400F36" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#1A0316" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Zari Gold: Metallic Antique Kanchipuram Gold -->
+    <linearGradient id="zariGold" x1="0%" y1="0%" x2="100%" y2="30%">
+      <stop offset="0%" stop-color="#FFE299" />
+      <stop offset="25%" stop-color="#E5BA5A" />
+      <stop offset="50%" stop-color="#C59B37" />
+      <stop offset="75%" stop-color="#F2D27E" />
+      <stop offset="100%" stop-color="#99731E" />
+    </linearGradient>
+    <linearGradient id="zariGoldDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C59B37" />
+      <stop offset="50%" stop-color="#8F6B1E" />
+      <stop offset="100%" stop-color="#573F0C" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- 1. Background Wall & Boutique Lighting -->
+  <rect width="600" height="800" fill="url(#bgWall)" />
+  <!-- Interior Warm Ambient Light Columns -->
+  <path d="M 40,0 L 90,0 L 110,500 L 20,500 Z" fill="#FFE2A3" opacity="0.08" />
+  <path d="M 460,0 L 580,0 L 600,500 L 480,500 Z" fill="#FFE2A3" opacity="0.06" />
+
+  <!-- Ambient Bokeh Lights -->
+  <circle cx="100" cy="180" r="70" fill="url(#bokehGlow1)" />
+  <circle cx="85" cy="160" r="30" fill="#FFF2CC" opacity="0.4" />
+  <circle cx="490" cy="220" r="90" fill="url(#bokehGlow2)" />
+  <circle cx="510" cy="200" r="35" fill="#FFE6B3" opacity="0.3" />
+
+  <!-- 2. Dark Silhouetted Shoulders & Hair Background -->
+  <!-- Hair Flowing Behind Shoulders -->
+  <path d="M 170,300 C 140,360 130,480 150,560 C 190,560 210,520 220,450 C 200,380 180,340 170,300 Z" fill="url(#hairGrad)" />
+  <path d="M 370,290 C 430,360 450,470 440,560 C 410,560 380,520 370,450 C 375,370 370,320 370,290 Z" fill="url(#hairGrad)" />
+
+  <!-- 3. Torso & Royal Purple Silk Saree -->
+  <!-- Body Base -->
+  <path d="M 140,540 C 140,460 170,410 240,390 C 270,385 330,385 360,390 C 430,410 460,460 460,540 L 490,680 L 110,680 Z" fill="url(#sareeSilk)" filter="url(#softShadow)" />
+
+  <!-- Saree Drape Across Torso & Left Shoulder -->
+  <path d="M 190,440 C 240,460 320,440 370,410 C 410,430 450,480 460,560 C 420,620 310,650 200,640 C 160,600 150,520 190,440 Z" fill="url(#sareeSilk)" />
+
+  <!-- Diagonal Saree Pallu Pleat Layer -->
+  <path d="M 360,400 C 330,430 270,520 220,620 C 260,635 320,640 370,630 C 420,580 445,490 440,420 Z" fill="#4D1342" />
+
+  <!-- Rich Antique Gold Zari Saree Borders (Heavy Brocade) -->
+  <!-- Main Shoulder Zari Border -->
+  <path d="M 365,395 C 330,440 270,535 220,630 L 260,645 C 305,550 365,455 395,410 Z" fill="url(#zariGold)" />
+  <path d="M 368,400 C 335,443 275,537 225,632 L 235,636 C 283,542 343,450 375,407 Z" fill="url(#zariGoldDark)" opacity="0.4" />
+
+  <!-- Zari Floral Brocade Patterns on Border -->
+  <g fill="#7A5611" opacity="0.7">
+    <circle cx="360" cy="425" r="3" />
+    <circle cx="330" cy="465" r="3.5" />
+    <circle cx="300" cy="510" r="4" />
+    <circle cx="270" cy="555" r="4" />
+    <circle cx="245" cy="600" r="4" />
+  </g>
+  <g fill="#FFF0B8" opacity="0.8">
+    <circle cx="359" cy="424" r="1.5" />
+    <circle cx="329" cy="464" r="1.8" />
+    <circle cx="299" cy="509" r="2" />
+    <circle cx="269" cy="554" r="2" />
+    <circle cx="244" cy="599" r="2" />
+  </g>
+
+  <!-- Saree Sleeve with Rich Zari Band (Left Forearm/Arm) -->
+  <path d="M 140,520 C 135,560 145,610 180,635 C 205,640 230,620 235,580 C 210,540 180,515 140,520 Z" fill="url(#sareeSilk)" />
+  <!-- Sleeve Zari Cuff Band -->
+  <path d="M 145,580 C 155,595 180,610 205,610 L 210,628 C 180,628 150,610 138,595 Z" fill="url(#zariGold)" />
+
+  <!-- Gold Buttis Scattered on Silk Saree -->
+  <g fill="url(#zariGold)">
+    <!-- Small Floral Buttis -->
+    <path d="M 390,480 Q 394,484 398,480 Q 394,476 390,480 Z" />
+    <path d="M 330,420 Q 334,424 338,420 Q 334,416 330,420 Z" />
+    <path d="M 420,530 Q 424,534 428,530 Q 424,526 420,530 Z" />
+    <path d="M 350,570 Q 354,574 358,570 Q 354,566 350,570 Z" />
+    <path d="M 280,610 Q 284,614 288,610 Q 284,606 280,610 Z" />
+  </g>
+
+  <!-- 4. Neck & Collarbones -->
+  <path d="M 270,330 C 270,370 280,410 300,415 C 320,410 330,370 330,330 Z" fill="url(#neckTone)" />
+  <!-- Delicate Gold Chain/Mangalsutra -->
+  <path d="M 275,370 C 290,400 310,400 325,370" fill="none" stroke="url(#zariGold)" stroke-width="2" />
+  <circle cx="300" cy="396" r="3" fill="#FFEAA8" />
+
+  <!-- 5. Head & Facial Features: Mrs. K. Ramani -->
+  <!-- Neck Shadow -->
+  <ellipse cx="300" cy="335" rx="35" ry="15" fill="#5C361E" opacity="0.4" />
+
+  <!-- Head Base Contour -->
+  <path d="M 230,240 C 230,160 250,130 300,130 C 350,130 370,160 370,240 C 370,315 340,350 300,350 C 260,350 230,315 230,240 Z" fill="url(#faceTone)" filter="url(#softShadow)" />
+
+  <!-- Ears & Gold Jhumka Earrings -->
+  <!-- Left Ear -->
+  <path d="M 233,230 C 225,240 225,260 235,270 Z" fill="#D4946E" />
+  <!-- Left Earring (Gold Drop) -->
+  <circle cx="230" cy="275" r="4" fill="url(#zariGold)" />
+  <path d="M 226,278 L 234,278 L 232,290 L 228,290 Z" fill="url(#zariGold)" />
+  <circle cx="230" cy="292" r="2.5" fill="#FFEAA8" />
+
+  <!-- Right Ear -->
+  <path d="M 367,230 C 375,240 375,260 365,270 Z" fill="#D4946E" />
+  <!-- Right Earring (Gold Drop) -->
+  <circle cx="370" cy="275" r="4" fill="url(#zariGold)" />
+  <path d="M 366,278 L 374,278 L 372,290 L 368,290 Z" fill="url(#zariGold)" />
+  <circle cx="370" cy="292" r="2.5" fill="#FFEAA8" />
+
+  <!-- Hair: Parted Gracefully with Natural Waves Frame -->
+  <path d="M 228,220 C 225,160 245,115 300,115 C 355,115 375,160 372,220 C 370,180 345,150 300,160 C 255,150 230,180 228,220 Z" fill="url(#hairGrad)" />
+  <path d="M 298,160 C 285,185 240,210 230,235 C 235,205 260,180 298,160 Z" fill="#1C1410" />
+  <path d="M 302,160 C 315,185 360,210 370,235 C 365,205 340,180 302,160 Z" fill="#1C1410" />
+
+  <!-- Eyebrows (Natural, Arched South Indian Form) -->
+  <path d="M 255,225 C 265,220 280,221 288,226" fill="none" stroke="#261A14" stroke-width="3" stroke-linecap="round" />
+  <path d="M 345,225 C 335,220 320,221 312,226" fill="none" stroke="#261A14" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Eyes: Warm, Intelligent, Gentle -->
+  <!-- Left Eye -->
+  <path d="M 258,242 C 266,236 278,236 286,242 C 278,247 266,247 258,242 Z" fill="#FFFFFF" />
+  <circle cx="272" cy="242" r="5" fill="#2E1B11" />
+  <circle cx="272" cy="242" r="2.5" fill="#0D0704" />
+  <circle cx="274" cy="240" r="1.2" fill="#FFFFFF" />
+  <path d="M 257,241 C 266,235 278,235 287,241" fill="none" stroke="#21150F" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Right Eye -->
+  <path d="M 314,242 C 322,236 334,236 342,242 C 334,247 322,247 314,242 Z" fill="#FFFFFF" />
+  <circle cx="328" cy="242" r="5" fill="#2E1B11" />
+  <circle cx="328" cy="242" r="2.5" fill="#0D0704" />
+  <circle cx="330" cy="240" r="1.2" fill="#FFFFFF" />
+  <path d="M 313,241 C 322,235 334,235 343,241" fill="none" stroke="#21150F" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Traditional Bindi (Between Brow Center) -->
+  <circle cx="300" cy="226" r="3.2" fill="#1C1410" />
+
+  <!-- Nose (Gentle Contour) -->
+  <path d="M 299,228 L 297,268 C 294,272 291,274 288,275 C 294,278 306,278 312,275 C 309,274 306,272 303,268 Z" fill="#C8885D" opacity="0.6" />
+  <ellipse cx="293" cy="275" rx="2.5" ry="1.5" fill="#8A4E26" opacity="0.7" />
+  <ellipse cx="307" cy="275" rx="2.5" ry="1.5" fill="#8A4E26" opacity="0.7" />
+
+  <!-- Lips: Natural, Warm Smile -->
+  <path d="M 284,298 C 292,295 300,297 308,295 C 316,298 318,303 308,308 C 300,309 292,308 284,298 Z" fill="#B35650" />
+  <path d="M 284,298 C 292,300 308,300 316,298" fill="none" stroke="#66221D" stroke-width="1.2" stroke-linecap="round" />
+  <!-- Chin shadow/highlight -->
+  <ellipse cx="300" cy="322" rx="14" ry="6" fill="#D6976F" opacity="0.5" />
+
+  <!-- 6. Folded Forearms Resting on Table -->
+  <!-- Left Arm (Reaching Forward onto Table) -->
+  <path d="M 120,620 C 160,630 240,650 340,650 C 370,650 390,665 370,685 C 290,695 180,680 100,650 Z" fill="url(#armTone)" filter="url(#softShadow)" />
+  <!-- Gold Bangles on Forearm/Wrist -->
+  <g>
+    <ellipse cx="140" cy="628" rx="8" ry="18" fill="none" stroke="url(#zariGold)" stroke-width="3" transform="rotate(-15 140 628)" />
+    <ellipse cx="148" cy="630" rx="8" ry="18" fill="none" stroke="url(#zariGold)" stroke-width="3" transform="rotate(-15 148 630)" />
+    <ellipse cx="156" cy="632" rx="8" ry="18" fill="none" stroke="url(#zariGold)" stroke-width="2.5" transform="rotate(-15 156 632)" />
+  </g>
+
+  <!-- Right Hand & Arm (Gently Resting Under Left Arm) -->
+  <path d="M 330,645 C 370,645 420,650 450,670 C 430,690 380,695 340,690 C 320,685 315,665 330,645 Z" fill="url(#armTone)" />
+  <!-- Gold Finger Ring -->
+  <ellipse cx="365" cy="660" rx="3.5" ry="2" fill="url(#zariGold)" />
+  <circle cx="365" cy="659" r="1.5" fill="#FFFFFF" />
+
+  <!-- 7. Foreground: Polished Luxury Marble Table -->
+  <path d="M 0,665 L 600,665 L 600,800 L 0,800 Z" fill="url(#marbleTable)" />
+  <!-- Subtle Grey Veins on White Marble -->
+  <path d="M 40,710 Q 150,690 280,730 T 520,705" fill="none" stroke="#D1CAC0" stroke-width="1.5" opacity="0.6" />
+  <path d="M 120,760 Q 290,740 440,775" fill="none" stroke="#D9D2C7" stroke-width="1.2" opacity="0.5" />
+  <!-- Gold Beveled Edge on Table Rim -->
+  <rect x="0" y="663" width="600" height="4" fill="url(#tableBevel)" />
+  <!-- Table Top Reflection Highlights -->
+  <rect x="0" y="667" width="600" height="6" fill="#FFFFFF" opacity="0.7" />
+
+  <!-- 8. Subtle Vignette & Frame Trim -->
+  <rect x="0" y="0" width="600" height="800" fill="none" stroke="#C5A059" stroke-width="3" opacity="0.3" />
+</svg>

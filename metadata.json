@@ -1,0 +1,8 @@
+{
+  "name": "Aavira Haute Couture",
+  "description": "Luxury Indian saree atelier founded by Mrs. K. Ramani, featuring 5 curated saree categories: Daily wear sarees, Dharmavaram Silk Sarees, VenkataGiri Silk Sarees, VenkataGiri Vintage Sarees, and Bridal Sarees.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

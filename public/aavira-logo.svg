@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FDF4F0" />
+      <stop offset="60%" stop-color="#F7E2DA" />
+      <stop offset="100%" stop-color="#EED0C5" />
+    </radialGradient>
+
+    <!-- Metallic Rose Gold Gradients -->
+    <linearGradient id="roseGold3D" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCECE6" />
+      <stop offset="25%" stop-color="#E5A998" />
+      <stop offset="50%" stop-color="#D18774" />
+      <stop offset="75%" stop-color="#F2C8BC" />
+      <stop offset="100%" stop-color="#A85E4D" />
+    </linearGradient>
+
+    <linearGradient id="roseGoldLight" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#F5CBC0" />
+      <stop offset="70%" stop-color="#D99482" />
+      <stop offset="100%" stop-color="#9C5444" />
+    </linearGradient>
+
+    <linearGradient id="silkGownGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2EE" />
+      <stop offset="25%" stop-color="#F7CBC1" />
+      <stop offset="55%" stop-color="#E8A395" />
+      <stop offset="85%" stop-color="#D48272" />
+      <stop offset="100%" stop-color="#BA6556" />
+    </linearGradient>
+
+    <linearGradient id="silkShadow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A65849" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#D48777" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FAF0EC" stop-opacity="0.8" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="8" stdDeviation="9" flood-color="#874738" flood-opacity="0.22" />
+    </filter>
+
+    <filter id="emboss" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#FFF" flood-opacity="0.7" />
+      <feDropShadow dx="-1" dy="-1" stdDeviation="2" flood-color="#803828" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="800" rx="36" fill="url(#bgGrad)" />
+
+  <g filter="url(#softShadow)">
+    <!-- 1. Enclosing Circular Rose Gold Frame -->
+    <circle cx="400" cy="290" r="185" fill="none" stroke="url(#roseGold3D)" stroke-width="7" />
+    <circle cx="400" cy="290" r="176" fill="none" stroke="url(#roseGoldLight)" stroke-width="1.8" opacity="0.8" />
+
+    <!-- 2. Botanical Vine & Leaves Branching to the Right -->
+    <!-- Main stem -->
+    <path d="M 545 340 C 585 305 605 240 615 180" fill="none" stroke="url(#roseGold3D)" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M 520 280 C 560 250 575 220 580 190" fill="none" stroke="url(#roseGoldLight)" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Leaves -->
+    <path d="M 615 180 C 630 195 640 215 635 230 C 625 218 615 205 615 180 Z" fill="url(#roseGold3D)" />
+    <path d="M 610 205 C 590 205 570 215 565 230 C 580 230 598 220 610 205 Z" fill="url(#roseGold3D)" />
+    <path d="M 600 240 C 620 250 635 270 630 285 C 618 275 608 260 600 240 Z" fill="url(#roseGold3D)" />
+    <path d="M 585 260 C 570 265 555 280 555 295 C 570 292 582 280 585 260 Z" fill="url(#roseGold3D)" />
+    <path d="M 570 300 C 590 310 600 330 595 345 C 585 335 575 320 570 300 Z" fill="url(#roseGold3D)" />
+    <path d="M 550 325 C 538 335 530 350 535 365 C 545 355 552 342 550 325 Z" fill="url(#roseGold3D)" />
+
+    <!-- Delicate Rose Gold Pearls/Berries -->
+    <circle cx="530" cy="245" r="5" fill="url(#roseGold3D)" />
+    <circle cx="585" cy="180" r="4.5" fill="url(#roseGold3D)" />
+    <circle cx="540" cy="305" r="4" fill="url(#roseGold3D)" />
+
+    <!-- 3. The Grand Majestic Letter "A" -->
+    <!-- Left Leg of A -->
+    <path d="M 402 105 L 340 370 L 370 370 L 402 145 Z" fill="url(#roseGold3D)" />
+    
+    <!-- Right Leg of A with elegant flare and terminal flourish -->
+    <path d="M 402 105 L 535 480 L 595 480 C 585 460 572 455 560 455 L 460 185 L 402 105 Z" fill="url(#roseGold3D)" />
+    <!-- Serif foot right -->
+    <path d="M 535 480 L 610 480 C 630 480 645 470 655 450 C 650 475 635 490 600 490 L 465 490 L 535 480 Z" fill="url(#roseGoldLight)" />
+
+    <!-- Apex Finial -->
+    <polygon points="398,98 406,98 410,115 394,115" fill="url(#roseGoldLight)" />
+
+    <!-- 4. Haute Couture Dressmaker Form & Draped Silk Gown -->
+    <!-- Mannequin Neck & Torso Stand -->
+    <ellipse cx="316" cy="132" rx="6" ry="8" fill="url(#roseGold3D)" />
+    <path d="M 314 140 L 318 140 L 319 165 L 313 165 Z" fill="url(#roseGold3D)" />
+    <ellipse cx="316" cy="165" rx="14" ry="4" fill="url(#roseGold3D)" />
+
+    <!-- Gown Bodice (Sweetheart corset tailoring) -->
+    <path d="M 288 178 C 298 170 310 182 316 178 C 322 182 334 170 344 178 C 348 205 342 235 336 255 C 324 260 308 260 296 255 C 290 235 284 205 288 178 Z" 
+          fill="url(#silkGownGrad)" stroke="#B86C5D" stroke-width="1.2" />
+    <path d="M 296 182 Q 316 198 336 182" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.6" />
+    <path d="M 302 205 Q 316 220 330 205" fill="none" stroke="#B86C5D" stroke-width="1" opacity="0.7" />
+
+    <!-- Swirling Draped Silk Skirt flowing dynamically -->
+    <!-- Back Pleats Layer -->
+    <path d="M 300 255 C 275 320 230 400 135 450 C 170 455 210 440 245 390 C 275 345 305 295 320 258 Z" 
+          fill="#C47363" opacity="0.85" />
+
+    <!-- Main Front Flowing Silk Cascades -->
+    <path d="M 298 255 C 290 320 250 410 128 475 C 165 490 220 480 270 430 C 315 385 340 310 332 258 Z" 
+          fill="url(#silkGownGrad)" stroke="#B86C5D" stroke-width="1.5" />
+
+    <!-- Silk Satin Folds & Rhythmic Highlights -->
+    <path d="M 306 256 C 290 335 255 420 160 480 C 190 485 235 465 275 415 C 310 370 328 305 324 258 Z" 
+          fill="url(#silkShadow)" />
+    <path d="M 314 256 C 308 340 285 415 205 488 C 235 490 275 470 310 420 C 335 375 334 300 328 258 Z" 
+          fill="url(#silkGownGrad)" />
+    <path d="M 322 257 C 325 335 315 410 260 495 C 285 495 318 475 342 425 C 355 380 342 300 332 258 Z" 
+          fill="url(#silkShadow)" />
+
+    <!-- Silk Ribbon / Drape swooping across the 'A' crossbar -->
+    <path d="M 328 275 C 365 315 425 365 520 375 C 570 380 620 410 655 465 C 640 460 620 445 580 430 C 490 400 425 340 332 290 Z" 
+          fill="url(#silkGownGrad)" stroke="#B86C5D" stroke-width="1.5" />
+    <path d="M 334 285 C 390 330 450 370 540 390 C 585 400 630 435 650 462" 
+          fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.75" />
+
+    <!-- Fluted Hemline of Gown -->
+    <path d="M 125 470 C 135 450 150 475 165 460 C 180 475 200 465 215 480 C 235 470 255 490 275 475 C 300 490 330 465 355 470 C 375 450 395 470 410 455" 
+          fill="none" stroke="#D18774" stroke-width="2.5" />
+  </g>
+
+  <!-- 5. Brand Typography "AAVIRA" -->
+  <g id="brand-text">
+    <text x="400" y="595" 
+          font-family="'Playfair Display', 'Didot', 'Bodoni MT', 'Cinzel', 'Georgia', serif" 
+          font-size="80" 
+          font-weight="400" 
+          letter-spacing="24" 
+          text-anchor="middle" 
+          fill="url(#roseGold3D)" 
+          filter="url(#emboss)">
+      AAVIRA
+    </text>
+  </g>
+
+  <!-- 6. Clothes Hanger Emblem & Ornate Filigree Flourish -->
+  <g id="hanger-filigree" transform="translate(400, 642)">
+    <!-- Clothes Hanger Motif -->
+    <!-- Hook -->
+    <path d="M 0 -18 C 6 -18 10 -12 8 -6 C 6 0 0 2 0 8" fill="none" stroke="url(#roseGold3D)" stroke-width="3" stroke-linecap="round" />
+    <!-- Shoulder Bar & Base -->
+    <path d="M 0 8 L -36 22 L 36 22 Z" fill="none" stroke="url(#roseGold3D)" stroke-width="3" stroke-linejoin="round" />
+
+    <!-- Flanking Filigree Scrolls (Left) -->
+    <path d="M -48 18 C -65 10 -80 30 -100 18 C -115 8 -135 15 -155 18" fill="none" stroke="url(#roseGold3D)" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M -75 22 C -85 32 -105 32 -115 22" fill="none" stroke="url(#roseGold3D)" stroke-width="2" stroke-linecap="round" />
+    <!-- Left end bead -->
+    <circle cx="-160" cy="18" r="4.5" fill="url(#roseGold3D)" />
+
+    <!-- Flanking Filigree Scrolls (Right) -->
+    <path d="M 48 18 C 65 10 80 30 100 18 C 115 8 135 15 155 18" fill="none" stroke="url(#roseGold3D)" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 75 22 C 85 32 105 32 115 22" fill="none" stroke="url(#roseGold3D)" stroke-width="2" stroke-linecap="round" />
+    <!-- Right end bead -->
+    <circle cx="160" cy="18" r="4.5" fill="url(#roseGold3D)" />
+  </g>
+
+  <!-- 7. Brand Motto "CLOTHING THAT DEFINES YOU" -->
+  <text x="400" y="705" 
+        font-family="'Montserrat', 'Century Gothic', 'Helvetica Neue', sans-serif" 
+        font-size="19" 
+        font-weight="500" 
+        letter-spacing="9" 
+        text-anchor="middle" 
+        fill="#A66150">
+    CLOTHING THAT DEFINES YOU
+  </text>
+
+  <!-- 8. Bottom Classical Filigree Flourish -->
+  <g id="bottom-flourish" transform="translate(400, 742)">
+    <path d="M 0 -8 C 5 -1 12 4 20 4 C 35 4 45 -6 60 -6 C 75 -6 85 4 95 4" fill="none" stroke="url(#roseGold3D)" stroke-width="2" stroke-linecap="round" />
+    <path d="M 0 -8 C -5 -1 -12 4 -20 4 C -35 4 -45 -6 -60 -6 C -75 -6 -85 4 -95 4" fill="none" stroke="url(#roseGold3D)" stroke-width="2" stroke-linecap="round" />
+    <path d="M 0 -8 L 0 8 M -4 4 L 0 10 L 4 4" fill="none" stroke="url(#roseGold3D)" stroke-width="2" stroke-linecap="round" />
+    <circle cx="0" cy="-8" r="3" fill="url(#roseGoldLight)" />
+  </g>
+</svg>

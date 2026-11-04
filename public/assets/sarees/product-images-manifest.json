@@ -1,0 +1,382 @@
+{
+  "sar-dw-001_0": {
+    "filename": "daily-wear-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-1-a.jpg"
+  },
+  "sar-dw-001_1": {
+    "filename": "daily-wear-1-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-1-b.jpg"
+  },
+  "sar-dw-002_0": {
+    "filename": "daily-wear-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-2-a.jpg"
+  },
+  "sar-dw-002_1": {
+    "filename": "daily-wear-2-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-2-b.jpg"
+  },
+  "sar-dw-002_2": {
+    "filename": "daily-wear-saree-02.webp",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-saree-02.webp"
+  },
+  "sar-dw-002_3": {
+    "filename": "Dail wear sarees 02.webp",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/Dail%20wear%20sarees%2002.webp"
+  },
+  "sar-dw-003_0": {
+    "filename": "daily-wear-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-3-a.jpg"
+  },
+  "sar-dw-003_1": {
+    "filename": "daily-wear-3-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-3-b.jpg"
+  },
+  "sar-dw-003_2": {
+    "filename": "daily-wear-saree-03.webp",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-saree-03.webp"
+  },
+  "sar-dw-003_3": {
+    "filename": "Daily wear saree 03.webp",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/Daily%20wear%20saree%2003.webp"
+  },
+  "sar-lf-001_0": {
+    "filename": "low-fancy-1-a.jpg",
+    "url": "/assets/sarees/low-fancy-1-a.jpg",
+    "updatedAt": 1710000000000
+  },
+  "sar-lf-001_1": {
+    "filename": "low-fancy-1-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/low-fancy-1-b.jpg"
+  },
+  "sar-lf-002_0": {
+    "filename": "low-fancy-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/low-fancy-2-a.jpg"
+  },
+  "sar-lf-002_1": {
+    "filename": "low-fancy-2-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/low-fancy-2-b.jpg"
+  },
+  "sar-lf-003_0": {
+    "filename": "low-fancy-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/low-fancy-3-a.jpg"
+  },
+  "sar-lf-003_1": {
+    "filename": "low-fancy-3-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/low-fancy-3-b.jpg"
+  },
+  "sar-hf-001_0": {
+    "filename": "high-fancy-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/high-fancy-1-a.jpg"
+  },
+  "sar-hf-001_1": {
+    "filename": "high-fancy-1-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/high-fancy-1-b.jpg"
+  },
+  "sar-hf-002_0": {
+    "filename": "high-fancy-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/high-fancy-2-a.jpg"
+  },
+  "sar-hf-002_1": {
+    "filename": "high-fancy-2-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/high-fancy-2-b.jpg"
+  },
+  "sar-hf-003_0": {
+    "filename": "high-fancy-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/high-fancy-3-a.jpg"
+  },
+  "sar-hf-003_1": {
+    "filename": "high-fancy-3-b.jpg",
+    "url": "/assets/sarees/high-fancy-3-b.jpg",
+    "updatedAt": 1710000000000
+  },
+  "sar-sp-001_0": {
+    "filename": "semi-pattu-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/semi-pattu-1-a.jpg"
+  },
+  "sar-sp-001_1": {
+    "filename": "semi-pattu-1-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/semi-pattu-1-b.jpg"
+  },
+  "sar-sp-002_0": {
+    "filename": "semi-pattu-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/semi-pattu-2-a.jpg"
+  },
+  "sar-sp-002_1": {
+    "filename": "semi-pattu-2-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/semi-pattu-2-b.jpg"
+  },
+  "sar-sp-003_0": {
+    "filename": "semi-pattu-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/semi-pattu-3-a.jpg"
+  },
+  "sar-sp-003_1": {
+    "filename": "semi-pattu-3-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/semi-pattu-3-b.jpg"
+  },
+  "sar-ss-001_0": {
+    "filename": "soft-silk-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/soft-silk-1-a.jpg"
+  },
+  "sar-ss-001_1": {
+    "filename": "soft-silk-1-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/soft-silk-1-b.jpg"
+  },
+  "sar-ss-002_0": {
+    "filename": "soft-silk-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/soft-silk-2-a.jpg"
+  },
+  "sar-ss-002_1": {
+    "filename": "soft-silk-2-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/soft-silk-2-b.jpg"
+  },
+  "sar-ss-003_0": {
+    "filename": "soft-silk-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/soft-silk-3-a.jpg"
+  },
+  "sar-ss-003_1": {
+    "filename": "soft-silk-3-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/soft-silk-3-b.jpg"
+  },
+  "sar-ds-001_0": {
+    "filename": "designer-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/designer-1-a.jpg"
+  },
+  "sar-ds-001_1": {
+    "filename": "designer-1-b.jpg",
+    "url": "/assets/sarees/designer-1-b.jpg",
+    "updatedAt": 1710000000000
+  },
+  "sar-ds-002_0": {
+    "filename": "designer-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/designer-2-a.jpg"
+  },
+  "sar-ds-002_1": {
+    "filename": "designer-2-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/designer-2-b.jpg"
+  },
+  "sar-ds-003_0": {
+    "filename": "designer-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/designer-3-a.jpg"
+  },
+  "sar-ds-003_1": {
+    "filename": "designer-3-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/designer-3-b.jpg"
+  },
+  "sar-wb-001_0": {
+    "filename": "wedding-bridal-1-a.jpg",
+    "url": "/assets/sarees/wedding-bridal-1-a.jpg",
+    "updatedAt": 1710000000000
+  },
+  "sar-wb-001_1": {
+    "filename": "wedding-bridal-1-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/wedding-bridal-1-b.jpg"
+  },
+  "sar-wb-002_0": {
+    "filename": "wedding-bridal-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/wedding-bridal-2-a.jpg"
+  },
+  "sar-wb-002_1": {
+    "filename": "wedding-bridal-2-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/wedding-bridal-2-b.jpg"
+  },
+  "sar-wb-003_0": {
+    "filename": "wedding-bridal-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/wedding-bridal-3-a.jpg"
+  },
+  "sar-wb-003_1": {
+    "filename": "wedding-bridal-3-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/wedding-bridal-3-b.jpg"
+  },
+  "sar-vt-001_0": {
+    "filename": "vintage-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/vintage-1-a.jpg"
+  },
+  "sar-vt-001_1": {
+    "filename": "vintage-1-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/vintage-1-b.jpg"
+  },
+  "sar-vt-002_0": {
+    "filename": "vintage-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/vintage-2-a.jpg"
+  },
+  "sar-vt-002_1": {
+    "filename": "vintage-2-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/vintage-2-b.jpg"
+  },
+  "sar-vt-003_0": {
+    "filename": "vintage-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/vintage-3-a.jpg"
+  },
+  "sar-vt-003_1": {
+    "filename": "vintage-3-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/vintage-3-b.jpg"
+  },
+  "sar-dw-027_0": {
+    "filename": "daily-wear-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-1-a.jpg"
+  },
+  "sar-dw-027_1": {
+    "filename": "daily-wear-1-b.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-1-b.jpg"
+  },
+  "sar-ds-001": {
+    "filename": "designer-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/designer-1-a.jpg"
+  },
+  "sar-ds-002": {
+    "filename": "designer-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/designer-2-a.jpg"
+  },
+  "sar-ds-003": {
+    "filename": "designer-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/designer-3-a.jpg"
+  },
+  "sar-dw-001": {
+    "filename": "daily-wear-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-1-a.jpg"
+  },
+  "sar-dw-002": {
+    "filename": "daily-wear-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-2-a.jpg"
+  },
+  "sar-dw-003": {
+    "filename": "daily-wear-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/daily-wear-3-a.jpg"
+  },
+  "sar-hf-001": {
+    "filename": "high-fancy-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/high-fancy-1-a.jpg"
+  },
+  "sar-hf-002": {
+    "filename": "high-fancy-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/high-fancy-2-a.jpg"
+  },
+  "sar-hf-003": {
+    "filename": "high-fancy-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/high-fancy-3-a.jpg"
+  },
+  "sar-lf-002": {
+    "filename": "low-fancy-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/low-fancy-2-a.jpg"
+  },
+  "sar-lf-003": {
+    "filename": "low-fancy-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/low-fancy-3-a.jpg"
+  },
+  "sar-sp-001": {
+    "filename": "semi-pattu-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/semi-pattu-1-a.jpg"
+  },
+  "sar-sp-003": {
+    "filename": "semi-pattu-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/semi-pattu-3-a.jpg"
+  },
+  "sar-ss-001": {
+    "filename": "soft-silk-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/soft-silk-1-a.jpg"
+  },
+  "sar-ss-002": {
+    "filename": "soft-silk-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/soft-silk-2-a.jpg"
+  },
+  "sar-ss-003": {
+    "filename": "soft-silk-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/soft-silk-3-a.jpg"
+  },
+  "sar-vt-001": {
+    "filename": "vintage-1-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/vintage-1-a.jpg"
+  },
+  "sar-vt-002": {
+    "filename": "vintage-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/vintage-2-a.jpg"
+  },
+  "sar-vt-003": {
+    "filename": "vintage-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/vintage-3-a.jpg"
+  },
+  "sar-wb-002": {
+    "filename": "wedding-bridal-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/wedding-bridal-2-a.jpg"
+  },
+  "sar-wb-003": {
+    "filename": "wedding-bridal-3-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/wedding-bridal-3-a.jpg"
+  },
+  "sar-sp-002": {
+    "filename": "semi-pattu-2-a.jpg",
+    "updatedAt": 1791721408975,
+    "url": "/assets/sarees/semi-pattu-2-a.jpg"
+  }
+}
